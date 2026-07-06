@@ -1,0 +1,20 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/run-campaigns",
+      "schedule": "* * * * *"
+    },
+    {
+      "path": "/api/cron/send-worker",
+      "schedule": "* * * * *"
+    },
+    {
+      "path": "/api/cron/followups",
+      "schedule": "0 */2 * * *"
+    },
+    {
+      "path": "/api/cron/cleanup-orders",
+      "schedule": "30 2 * * *"
+    }
+  ]
+}
