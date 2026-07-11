@@ -1,0 +1,33 @@
+export const traderCopy = {
+  pl: {
+    title: "FluxBase TraderBot",
+    subtitle: "Analiza rynku, paper trading i automatyczne strategie dla rynku memcoinów.",
+    tabs: {
+      market: "Analiza rynku",
+      paper: "Paper trading",
+      live: "Automatyczny trading",
+      approvals: "Zlecenia do akceptacji",
+      history: "Historia transakcji",
+      settings: "Ustawienia i ryzyko",
+      exchange: "Połączenie z giełdą",
+    },
+    statuses: {
+      watch: "Obserwuj",
+      buy: "Kupno",
+      hold: "Trzymaj",
+      sell: "Sprzedaż",
+      rejected: "Odrzucony",
+      low: "Niskie",
+      medium: "Średnie",
+      high: "Wysokie",
+      blocked: "Zablokowane",
+      disabled: "Wyłączony",
+      approval_required: "Wymagana akceptacja",
+      automatic: "Automatyczny",
+      pending: "Oczekuje",
+      approved: "Zatwierdzone",
+      expired: "Wygasłe",
+      cancelled: "Anulowane",
+    },
+  },
+};

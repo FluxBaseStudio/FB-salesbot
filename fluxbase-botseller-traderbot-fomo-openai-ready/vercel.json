@@ -1,0 +1,36 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/run-campaigns",
+      "schedule": "* * * * *"
+    },
+    {
+      "path": "/api/cron/send-worker",
+      "schedule": "* * * * *"
+    },
+    {
+      "path": "/api/cron/followups",
+      "schedule": "0 */2 * * *"
+    },
+    {
+      "path": "/api/cron/cleanup-orders",
+      "schedule": "30 2 * * *"
+    },
+    {
+      "path": "/api/cron/trader-market-scan",
+      "schedule": "*/5 * * * *"
+    },
+    {
+      "path": "/api/cron/trader-paper-engine",
+      "schedule": "*/2 * * * *"
+    },
+    {
+      "path": "/api/cron/trader-copy-engine",
+      "schedule": "* * * * *"
+    },
+    {
+      "path": "/api/cron/trader-live-executor",
+      "schedule": "* * * * *"
+    }
+  ]
+}
